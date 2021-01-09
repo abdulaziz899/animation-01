@@ -1,0 +1,191 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position: center;
+ 
+}
+.navbar img{
+    width: 130px;
+    height: 60px;
+    cursor: pointer;
+    
+  
+}
+.navbar{
+    width: 90%;
+    margin: 0px auto;
+    justify-content: space-between;
+  
+    padding: 20px;
+    display: flex;
+}
+
+
+.navbar button{
+  width:100%;
+  height: 40px; 
+  color: #fbfcfd;
+  border-radius: 20px;
+  background: transparent;
+  outline: none;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-top: 15px;
+
+}
+.but{
+    width: 10%;
+    
+}
+.but a{
+    text-decoration: none;
+    color: white;
+    color: white;
+}
+.mid{
+    width:85%;
+    margin:0px auto;
+    margin-top: 15%;
+}
+.mid h4{
+   
+  font-size: 20px;
+    }
+
+.mid h1{
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.mid button{
+    width: 15%;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    transition: .5s;
+
+}
+.mid button:hover{
+    transform:scale(.8) ;
+    background-color: violet;
+
+}
+.side-bar{
+    width: 50px;
+    height: 100vh;
+    position: absolute;
+    background: linear-gradient(#00545d,#000);
+    right: 0px;
+    top: 0px;
+}
+.menu{
+    display: block;
+    width: 25px;
+    cursor: pointer;
+    margin: 20px auto 0;
+}
+.social-1 img{
+width: 25px;
+margin: 5px auto;
+}
+.social-1{
+  width: 50px;
+position: absolute;
+text-align: center;
+top: 40%;
+}
+.social-2{
+    width: 50px;
+   position: absolute;
+   text-align: center;
+   bottom: 20px;
+  }
+.social-2 img{
+    width: 25px;
+    margin: 5px auto;
+    }
+    .bubbol{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -70px;
+  animation-play-state: running;
+
+
+    }
+    .bubbol img{
+  width: 50px;
+  animation-name: bubbol;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  
+    }
+    @keyframes bubbol{
+        0%{
+            transform: translateY(0);
+        opacity: 0;
+        }
+        50%{
+          
+            opacity:1;
+        }
+       70%{
+           
+        opacity: 1;
+        }
+        100%{
+            transform: translateY(-80vh);
+        opacity: 0;
+        }
+    }
+    .bubbol img:nth-child(1)
+    {
+        animation-delay: 2s;
+    }
+    .bubbol img:nth-child(2)
+    {
+        animation-delay: 1s;
+    }
+    .bubbol img:nth-child(3)
+    {
+        animation-delay: 3s;
+    }
+    .bubbol img:nth-child(4)
+    {
+        animation-delay: 5s;
+    }
+    .bubbol img:nth-child(2)
+    {
+        animation-delay: 3s;
+    }
+    .bubbol img:nth-child(6)
+    {
+        animation-delay: 6s;
+    }
+    .bubbol img:nth-child(7)
+    {
+        animation-delay: 7s;
+    }
+    
